@@ -1,3 +1,4 @@
+import Menu from 'assets/components/Menu';
 import Cardapio from 'pages/cardapio';
 import Inicio from 'pages/inicio';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
