@@ -1,46 +1,99 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+# ![Logo](https://raw.githubusercontent.com/Odisseu93/aluroni/d7be0b24ff77f90177cc01222fdcee3efe0999ae/src/assets/logo.svg)
+## Sobre o projeto
+Este projeto está disponível na [Formação React com TypeScript](https://www.alura.com.br/formacao-react-ts) da [alura](https://www.alura.com.br/).
+Trata-se uma página de um restaurante fictício: o Alunori.
+Nesta aplicação o usuário consegue:
+- visualiazar os pratos recomendados do dia;
+- visualiazar o endereço físico do restaurante;
+- filtrar os pratos por tipo;
+- ordenar os pratos por: porções, quantidade de pessoas e preço.
 
-### `npm start`
+como aprendizado os  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![aluroni-desktop.md.png](https://www.imagemhost.com.br/images/2022/11/21/aluroni-desktop.md.png)](https://www.imagemhost.com.br/image/rNnVkx)
+[![aluroni-desktop-2.md.png](https://www.imagemhost.com.br/images/2022/11/21/aluroni-desktop-2.md.png)](https://www.imagemhost.com.br/image/rNnoL0)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Executando Localmente
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Clone o projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  git clone https://github.com/Odisseu93/aluroni
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Vá para o directório do projeto
 
-## Learn More
+```bash
+  cd aluroni
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Instalando dependencias
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
+## Tech Stack
+
+- React com Typescript
+- CSS Modules, SASS e Classname(package)
+
+
+
+
+
+## Autores
+
+- [Luiz Fernando Ribeiro](https://github.com/lfrprazeres)
+
+
+
+## Aprendizado
+
+algumas coisas que aprendi com este projeto foram:
+- entender conceitos de React como Componentização, Props e State;
+- evitar sobreposições de CSS com o CSS Modules;
+- aprender sobre os hooks useState e useEffect e entender como eles eram usados nos class components;
+- deixar seu código mais limpo e documentado com a forma mais atual de se escrever React;
+- desenvolver o meu código com conceitos de boas práticas como DRY (Don't repeat yourself) e SRP (Single Responsibility Principle)
+- como refatorar um projeto utilizando ESLint;
+- desenvolver um código escalável, priorizando um código limpo e fácil de entender;
+- utilizar o pacote react-router-dom de forma simples e prática, aprendendo todos os conceitos principais da biblioteca;
+- descubrir como a biblioteca se integra com o navegador e utiliza de coisas nativas para mudar as rotas e compartilhar estados.
+
+## Documentações
+
+[React.js](https://reactjs.org/)
+
+[Typescript](https://www.typescriptlang.org/docs/)
+
+[typescript-plugin-css-modules](https://www.npmjs.com/package/typescript-plugin-css-modules)
+
+[classnames](https://www.npmjs.com/package/classnames)
+
+[react-router-dom](https://github.com/remix-run/react-router/blob/main/docs/start/tutorial.md)
+
+[eslint](https://www.npmjs.com/package/eslint)
+
+
+
