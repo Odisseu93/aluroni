@@ -97,3 +97,6 @@ algumas coisas que aprendi com este projeto foram:
 
 
 
+## License
+
+[MIT](LICENSE)
