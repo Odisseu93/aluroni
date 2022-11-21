@@ -4,7 +4,6 @@ body {
     line-height: 1;
 }
 
-
 body {
     background-color: #f6f6f6;
 }
@@ -13,3 +12,9 @@ body {
     box-sizing: border-box;
     font-family: 'Italiana', serif;
 }
+
+figure {
+    margin: 0;
+    margin-block: 0;
+    margin-inline: 0;
+  }
