@@ -11,14 +11,8 @@ Nesta aplicação o usuário consegue:
 - filtrar os pratos por tipo;
 - ordenar os pratos por: porções, quantidade de pessoas e preço.
 
-como aprendizado os  
-
-    
-
-
-
-
-
+## Deploy
+[👉 Link](https://aluroni-mauve.vercel.app/)
 ## Screenshots
 
 [![aluroni-desktop.md.png](https://www.imagemhost.com.br/images/2022/11/21/aluroni-desktop.md.png)](https://www.imagemhost.com.br/image/rNnVkx)
